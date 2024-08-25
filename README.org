@@ -1,0 +1,10 @@
+#+TITLE: Ryan Fleck's Resume
+
+* Build
+
+Install LaTeX and TeXstudio.
+
+#+begin_src bash
+sudo apt-get install texlive-latex-base texlive-fonts-recommended \
+  texlive-fonts-extra texlive-latex-extra pandoc texstudio
+#+end_src

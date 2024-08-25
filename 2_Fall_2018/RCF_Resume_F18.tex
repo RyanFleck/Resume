@@ -1,0 +1,71 @@
+% LaTeX resume using res.cls
+\documentclass[margin]{res}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\setlength{\textwidth}{5.1in} % set width of text portion
+
+\begin{document}
+
+% Center the name over the entire width of resume:
+ \moveleft.5\hoffset\centerline{\large\bf Ryan Fleck}
+% Draw a horizontal line the whole width of resume:
+ \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt }\smallskip
+% address begins here
+% Again, the address lines must be centered over entire width of resume:
+ \moveleft.5\hoffset\centerline{ryan.fleck@protonmail.com $\cdot$ 1 (613) 501-4043 $\cdot$ ryanfleck.github.io}
+
+\begin{resume}
+\section{EDUCATION} {\sl Bachelor of Applied Science} in Computer Engineering \\
+University of Ottawa, Canada. Graduating April 2021
+                
+\section{EXPERIENCE} 
+{\sl .NET/Java Developer at MNP LLP (Technology Consulting)} \hfill Jan 2018 - Dec 2018\\
+Software Development \& Quality Assurance role. 3 4-month independent internships.
+\begin{itemize}  \itemsep -2pt %reduce space between items
+\item {\sl Sitecore (.NET/C\#)} - Built components and features using the Sitecore API.
+\item {\sl TeamSite (Java/XML/JS)} - Added features \& fixed bugs in a Spring CMS.
+\item {\sl Adobe Experience Manager (Java/JSP/JS)} - Extended AEM for a client bid prototype. Responsible for user/group security, workflow, writing components.
+\item {\sl Technical Writing} - Responsible for writing clean, client-ready documentation.
+\item {\sl Web Development} - Learned HTML/CSS/JS/Bootstrap working with frontend.
+\item Designed and executed multiple effective quality assurance protocols, utilizing automation and unit testing, for projects valued \$300k - \$650k.
+\item Worked in many agile development teams, utilizing CI/CD.
+\end{itemize}
+
+                
+{\sl Xalgorithms Foundation} \hfill May 2018 - Present\\
+Contributes to the {\sl Xalgorithms} Libre Software/Open Source project. Worked on the prototype .xalgo rule interpreter, implemented with Scala, Spark, Cassandra, Ruby.
+\begin{itemize}  \itemsep -2pt %reduce space between items
+\item {\sl Quality Assurance} - Bugtested Xalgorithm language and interpreter prototypes.
+\item {\sl Interpreter Development} - Wrote some minor functions for the interpreter.
+\item {\sl Contributor} - Attends a weekly meeting to discuss technical progress.
+\end{itemize}
+                
+\section{COMPUTER \\ SKILLS} 
+{\sl Programming Languages} - C\#, Java, Scala, Python, JavaScript, Bash, C++, C.\\
+{\sl Formatting Languages} - HTML, CSS, SASS, LaTeX, Markdown, Asciidoc.\\
+{\sl Operating Systems} - RHEL and Debian-derived GNU/Linux, FreeBSD, Windows. \\
+{\sl Version Control} - Extensive use of Git for organizing and deploying work. \\
+{\sl System Administration } - Enterprise and personal configuration of CentOS servers.
+                 
+\section{WORKPLACE \\ SKILLS} 
+ {\sl Documentation} - Proficient with the Microsoft Office Suite, Libreoffice and Latex.\\
+{\sl Customer Service Experience} - Has worked in restaurants, coffee shops and retail.\\
+{\sl Teamwork} - Has worked in teams on various job sites, excellent delegation skills.\\
+{\sl Quality of Writing} - Appreciates brevity, can communicate complex ideas effectively.\\
+
+\section{PERSONAL \\ PROJECTS}
+{\sl CanUX Trivia} - Created a UX Trivia WebApp using NodeJS, Socket.IO, PostgreSQL.\\
+{\sl BusBot} - Slack Bot for fetching OCT bus schedules using NodeJS, botkit, MongoDB.\\
+{\sl PebbleHack} - Implemented a pebble watchface that responded to phone status.\\
+{\sl Server} - Maintains a Debian server for Mumble, psql/mongo databases, automation.\\   
+{\sl Blog} - Built a site using and extending Jekyll(Ruby). I write about tech I use.\\  
+{\sl GameMaker, LibGDX, Three.JS, Pixi.JS} - Has written numerous 1-4 player games.\\
+{\sl Art, Sound, Animation, Modeling} - Creates game assets w/ Gimp, Audacity, Blender.\\
+{\sl Blockchain Christmas Tree} - Group project from uOttaHack 2018. Wrote the JavaScript to Arduino (serial) interface for an Ethereum dApp, 3D Printed and soldered the tree.\\
+
+\end{resume}
+\end{document}
+
+
+
+
