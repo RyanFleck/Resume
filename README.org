@@ -1,5 +1,7 @@
 #+TITLE: Ryan Fleck's Resume
 
+View the latest copy here: [[https://github.com/RyanFleck/Resume/blob/master/Ryan_Fleck_CV.pdf][Ryan_Fleck_CV.pdf]]
+
 * Build
 
 Install LaTeX and TeXstudio.
